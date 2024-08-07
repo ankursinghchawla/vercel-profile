@@ -1,62 +1,93 @@
-// you can overwrite this entire file with your v0 Component.
-// just copy and paste the "React" output over the entire file.
-
-import Link from "next/link";
-import React from "react";
-import {V0Logo} from "./symbols";
-
-function TestComponent() {
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/sZErYJfXZKj
+ * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ */
+export default function Component() {
   return (
-    <div
-      style={{
-        display: "flex",
-        height: "100%",
-        justifyContent: "space-between",
-        flexDirection: "column",
-        width: "100%",
-      }}
-    >
-      <h3
-        style={{
-          maxWidth: "11em",
-        }}
-      >
-        This would be a pretty good place for a{" "}
-        <Link href="https://v0.dev/" target="_blank" rel="noopener noreferrer">
-          v0 component
-        </Link>
-        , wouldn't it?
-      </h3>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-end",
-          width: "100%",
-        }}
-      >
-        <p
-          style={{
-            maxWidth: "20em",
-          }}
-        >
-          Go make one, then paste it into{" "}
-          <code
-            style={{
-              fontFamily: "var(--font-geist-mono)",
-              fontWeight: 500,
-              fontSize: "0.95em",
-              fontFeatureSettings: "'ss09'",
-            }}
-          >
-            app/components/MyV0Component.tsx
-          </code>
-        </p>
-
-        <V0Logo />
+    <section className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto py-12 px-4 md:px-6">
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="/placeholder.svg"
+          alt="Cat Tree 1"
+          width={600}
+          height={400}
+          className="w-full h-64 object-cover"
+          style={{ aspectRatio: "600/400", objectFit: "cover" }}
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-[#6B46C1]">Deluxe Cat Tree 🐱</h3>
+          <p className="text-muted-foreground mt-2">
+            A luxurious cat tree with multiple platforms and scratching posts for your feline friend to play and rest.
+            🐱
+          </p>
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>
+              <span className="font-medium">Height:</span> 72 inches
+            </li>
+            <li>
+              <span className="font-medium">Platforms:</span> 3
+            </li>
+            <li>
+              <span className="font-medium">Scratching Posts:</span> 2
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  );
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="/placeholder.svg"
+          alt="Cat Tree 2"
+          width={600}
+          height={400}
+          className="w-full h-64 object-cover"
+          style={{ aspectRatio: "600/400", objectFit: "cover" }}
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-[#6B46C1]">Premium Cat Tower 🐱</h3>
+          <p className="text-muted-foreground mt-2">
+            A modern and stylish cat tree with a cozy hammock and multiple scratching surfaces. 🐱
+          </p>
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>
+              <span className="font-medium">Height:</span> 60 inches
+            </li>
+            <li>
+              <span className="font-medium">Platforms:</span> 2
+            </li>
+            <li>
+              <span className="font-medium">Scratching Posts:</span> 3
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
+        <img
+          src="/placeholder.svg"
+          alt="Cat Tree 3"
+          width={600}
+          height={400}
+          className="w-full h-64 object-cover"
+          style={{ aspectRatio: "600/400", objectFit: "cover" }}
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-[#6B46C1]">Compact Cat Condo 🐱</h3>
+          <p className="text-muted-foreground mt-2">
+            A space-saving cat tree with a cozy perch and a sturdy scratching post. 🐱
+          </p>
+          <ul className="mt-4 space-y-2 text-sm">
+            <li>
+              <span className="font-medium">Height:</span> 48 inches
+            </li>
+            <li>
+              <span className="font-medium">Platforms:</span> 1
+            </li>
+            <li>
+              <span className="font-medium">Scratching Posts:</span> 1
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  )
 }
-
-export default TestComponent;
