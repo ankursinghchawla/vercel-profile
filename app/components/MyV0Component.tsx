@@ -1,20 +1,12 @@
 /**
  * v0 by Vercel.
- * @see https://v0.dev/t/sZErYJfXZKj
+ * @see https://v0.dev/t/DP3NealoYMH
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 export default function Component() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto py-12 px-4 md:px-6">
       <div className="bg-background rounded-lg shadow-lg overflow-hidden">
-        <img
-          src="/placeholder.svg"
-          alt="Cat Tree 1"
-          width={600}
-          height={400}
-          className="w-full h-64 object-cover"
-          style={{ aspectRatio: "600/400", objectFit: "cover" }}
-        />
         <div className="p-6">
           <h3 className="text-xl font-bold text-[#6B46C1]">Deluxe Cat Tree 🐱</h3>
           <p className="text-muted-foreground mt-2">
@@ -33,16 +25,16 @@ export default function Component() {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
         <img
           src="/placeholder.svg"
-          alt="Cat Tree 2"
+          alt="Cat Tree 1"
           width={600}
           height={400}
           className="w-full h-64 object-cover"
           style={{ aspectRatio: "600/400", objectFit: "cover" }}
         />
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
         <div className="p-6">
           <h3 className="text-xl font-bold text-[#6B46C1]">Premium Cat Tower 🐱</h3>
           <p className="text-muted-foreground mt-2">
@@ -60,16 +52,16 @@ export default function Component() {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
         <img
           src="/placeholder.svg"
-          alt="Cat Tree 3"
+          alt="Cat Tree 2"
           width={600}
           height={400}
           className="w-full h-64 object-cover"
           style={{ aspectRatio: "600/400", objectFit: "cover" }}
         />
+      </div>
+      <div className="bg-background rounded-lg shadow-lg overflow-hidden">
         <div className="p-6">
           <h3 className="text-xl font-bold text-[#6B46C1]">Compact Cat Condo 🐱</h3>
           <p className="text-muted-foreground mt-2">
@@ -87,6 +79,14 @@ export default function Component() {
             </li>
           </ul>
         </div>
+        <img
+          src="/placeholder.svg"
+          alt="Cat Tree 3"
+          width={600}
+          height={400}
+          className="w-full h-64 object-cover"
+          style={{ aspectRatio: "600/400", objectFit: "cover" }}
+        />
       </div>
     </section>
   )
